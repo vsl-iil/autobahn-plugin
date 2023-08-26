@@ -1,4 +1,4 @@
-Version = "2023-3.2.8"
-Authors = ['jackharrer2']
+Version = "2023-3.2.9"
+Authors = ['jackharrer2', 'vsl-iil']
 Name = "Autobahn"
-Description = "Leech Detector and autobanner. Source: www.reddit.com/r/Soulseek/comments/1533te2/how_to_alter_leech_detector_to_ban_user_instead/jsnalay"
+Description = "Leech Detector and autobanner. Source: www.reddit.com/r/Soulseek/comments/1533te2/how_to_alter_leech_detector_to_ban_user_instead/jsnalay\nCreator: jackharrer2\nMaintainer: vsl-iil <workregor@mail.ru>"
