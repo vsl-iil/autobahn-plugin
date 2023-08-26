@@ -6,3 +6,10 @@ Allows you to set share limits for users. If they share less, they will be banne
 You can set messages that will be sent to users.
 
 The original author expressed no intent in supporting the code; thus, I release it under CC0 and will try to develop the plugin and fix bugs.
+
+## Installation
+
+1. In Nicotine+, go to Settings -> Plugins, press 'Add';
+2. Clone this repo into the opened folder, or manually copy `__init__.py` and `PLUGININFO` from the repo to a new folder inside the opened one;
+3. Check the boxes 'Enable plugins' and 'Autobahn' in Nicotine+ plugins settings menu;
+4. Select 'Autobahn', press 'Settings' and set the limits and messages.
