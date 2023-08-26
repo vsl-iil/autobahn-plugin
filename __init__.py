@@ -77,7 +77,7 @@ class Plugin(BasePlugin):
             try:
                 total_size_text = self.frame.userbrowse.pages[user].share_size_label.get_text()
                 total_folders_text_temp = self.frame.userbrowse.pages[user].num_folders_label.get_text()
-                total_folders_text = total_folders_text_temp.replace(",","")
+                total_folders_text = total_folders_text_temp.replace(",","").replace("\xa0", "")
                 info_box_text = self.frame.userbrowse.pages[user].info_bar.label.get_text()
                 progressbar_fraction = self.frame.userbrowse.pages[user].progress_bar.get_fraction()
                 
